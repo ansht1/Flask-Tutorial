@@ -1,3 +1,24 @@
+// Colour varibles
+$primary_colour: #007bff;
+$primary_hover_colour: #0056b3;
+$success_colour: #28a745;
+$success_hover_colour: #218838;
+$title_colour: #333;
+$bg_colour: wheat;
+
 body {
-    background-color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: $bg_colour;
+}
+
+.content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
